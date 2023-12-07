@@ -16,6 +16,7 @@
   --white-color: 	#486581;
   --gray2-color: 	#486581;
   --blue-color:   #234567;
+  --blue2-color:   #15202b;
 }
 
 * {
@@ -25,7 +26,7 @@
   scroll-behavior: smooth;
   
 }
-
+/* 
 @layer components {
   .heroButton { 
       @apply px-6 py-2 border border-[#242424] rounded-full text-sm tracking-widest text-gray-500 transition-all hover:text-[#F8AB0A]/40 hover:border-[#F8AB0A]/40
@@ -36,4 +37,4 @@
       @apply outline-none bg-slate-400/10  px-6 py-4 rounded-sm border-b border-[#242424] text-gray-500 transition-all
   placeholder-gray-500 focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A]/40 hover:border-[#F7AB0A]/40
   }
-}
+} */

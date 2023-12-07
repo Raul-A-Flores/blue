@@ -94,7 +94,7 @@
   .p1-text{
     font-size: 0.8rem;
     text-align: left;
-    color: var(--white-color);
+    color: var(--secondary-color);
     line-height: 1.5;
   
     @media screen and (min-width: 2000px) {
@@ -105,7 +105,7 @@
   .p-text {
     font-size: 0.8rem;
     text-align: left;
-    color: var(--secondary-color);
+    color: var(--black-color);
     line-height: 1.5;
   
     @media screen and (min-width: 2000px) {
@@ -116,7 +116,7 @@
   .about__p-text {
     font-size: 0.8rem;
     text-align: left;
-    color: var(--gray2-color);
+    color: var(--secondary-color);
     line-height: 1.5;
   
     @media screen and (min-width: 2000px) {
@@ -243,5 +243,6 @@
   
     .copyright {
       padding: 2rem;
+      
     }
   }

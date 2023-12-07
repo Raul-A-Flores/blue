@@ -64,12 +64,15 @@
   .app__footer-cards .app__footer-card:last-child:hover {
     box-shadow: 0 0 25px var(--gray2-color);
   }
-  
+  .p1-text::placeholder {
+    color: #fff;
+  }
   .app__footer-form {
     width: 80%;
     flex-direction: column;
     margin: 1rem 2rem;
     align-items: center;
+    
   
     div {
       width: 100%;
@@ -90,7 +93,7 @@
         background-color: var(--white-color);
   
         font-family: var(--font-base);
-        color: var(--black-color);
+        color: var(--secondary-color);
         outline: none;
       }
   
@@ -110,7 +113,7 @@
       background-color: var(--gray2-color);
   
       font-weight: 500;
-      color: var(--black-color);
+      color: var(--secondary-color);
       outline: none;
       margin: 2rem 0 0 0;
       font-family: var(--font-base);

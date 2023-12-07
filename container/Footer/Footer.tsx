@@ -6,9 +6,9 @@ import { images } from '../../constants'
 import { AppWrap, MotionWrap } from '../../wrapper'
 import {client} from '../../client'
 import { MdEmail } from "react-icons/md";
-import Email from '../../assets/envelope.svg'
+import Email from '../../assets/mail.png'
 import Image from 'next/image'
-import phone from '../../assets/phone-modern.svg'
+import phone from '../../assets/phone.svg'
 
 import './Footer.scss'
 const Footer = () => {
@@ -47,12 +47,12 @@ const Footer = () => {
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
           <Image src={Email} alt='email' height={40}/>
-          <a href="mailto:raul.alexander.floress@gmail.com" className='p-text'>raul.alexander.floress@gmail.com</a>
+          <a href="mailto:raul.alexander.floress@gmail.com" className='p1-text'>raul.alexander.floress@gmail.com</a>
         </div>
         <div className='app__footer-card'>
           <Image src={phone} alt='phone' height={40}/>
 
-          <a href="tel + 1 (310) 402 8397 " className='p-text'>+1 (310) 402-8397</a>
+          <a href="tel + 1 (310) 402 8397 " className='p1-text'>+1 (310) 402-8397</a>
         </div>
 
       </div>
@@ -60,17 +60,17 @@ const Footer = () => {
     {!isFormSubmitted ?
       <div className='app__footer-form app__flex'>
         <div className='app__flex'>
-          <input className='p-text' type='text' name='name' placeholder='Your Name' value={name}
+          <input className='p1-text' type='text' name='name' placeholder='Your Name' value={name}
           onChange={handleChangeInput} />
         </div>
         <div className='app__flex'>
-          <input className='p-text' type='email' name='email' placeholder='Your Email' value={email}
+          <input className='p1-text' type='email' name='email' placeholder='Your Email' value={email}
           onChange={handleChangeInput} />
         </div>
         <div>
-          <textarea className='p-text' name='message' placeholder='Your Message' value={message} onChange={handleChangeInput} />
+          <textarea className='p1-text' name='message' placeholder='Your Message' value={message} onChange={handleChangeInput} />
         </div>
-        <button type="button" className='p-text' onClick={handleSubmit}>{loading ? 'Sending' : 'Send Message'}</button>
+        <button type="button" className='p1-text' onClick={handleSubmit}>{loading ? 'Sending' : 'Send Message'}</button>
 
       </div>
       : <div>
