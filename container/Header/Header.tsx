@@ -9,7 +9,8 @@ import { AppWrap } from '../../wrapper';
 import { images } from '@/constants'
 import './Header.scss';
 import profile from '../../assets/profile.png'
-import circles from '../../assets/circle.svg'
+import bg from '@/images/bgWhite1.png'
+
 
 const scaleVariants = {
   whileInView: {
@@ -46,13 +47,14 @@ const Header = () => (
     >
 
       <Image alt='bg-profile' src={profile} width={500} height={500}/>
-    {/*   <motion.img
+   {/*    
+      <motion.img
         whileInView={{ scale: [0, 1] }}
         transition={{ duration: 1, ease: 'easeInOut' }}
-        src={images.circle}
+        src={bg}
         alt="profile_circle"
         className="overlay_circle"
-      /> */}
+      />  */}
     </motion.div>
 
     <motion.div
